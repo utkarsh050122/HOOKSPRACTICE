@@ -9,7 +9,7 @@ const LargeList = ({ items }) => {
 };
 
 const Memo = () => {
-  const [items, setItems] = useState(Array.from({ length: 1000 }, (_, i) => `Item ${i + 1}`));
+  const [items, setItems] = useState(Array.from({ length: 10 }, (_, i) => `Item ${i + 1}`));
 
   const addItem = () => {
     setItems(currentItems => [...currentItems, `Item ${currentItems.length + 1}`]);

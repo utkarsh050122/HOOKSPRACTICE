@@ -4,6 +4,7 @@ import FullNameForm from './components/FullNameForm';
 import Memo from './components/Memo/Memo';
 import Counter from './components/callback/callback';
 import ItemList from './components/reducer/Reducer';
+import Menu from './components/menu/Menu';
 
 function App() {
   // const { state, dispatch } = useCart();
@@ -19,6 +20,7 @@ function App() {
           <div key={item.id}>{item.name}</div>
         ))}
       </div> */}
+      <Menu/>
       <h1>API Data Fetch Example</h1>
       <FetchDataComponent />
       <h2>Full Name Submission Form</h2>

@@ -1,0 +1,141 @@
+/* Menu.css */
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    background-color: #333;
+    width: 200px; /* You can adjust this width as necessary */
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #333;
+    border-bottom: 1px solid #444;
+  }
+  
+  .menu li a:hover {
+    background-color: #444;
+  }
+  
+  .submenu {
+    list-style-type: none;
+    padding-left: 20px; /* Indent submenu items */
+  }
+  
+  .submenu li a {
+    border-bottom: none; /* Remove border if you don't need it on subitems */
+  }
+  
+  /* You can add more specific styles for grandchild items if needed */
+  
+/* Menu.css */
+/* .navbar {
+    background: #333;
+    overflow: hidden;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu > li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .has-submenu .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #444;
+  }
+  
+  .has-submenu:hover .submenu {
+    display: block;
+  }
+  
+  .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu li {
+    position: relative;
+  }
+  
+  .submenu > li {
+    display: block;
+  }
+  
+  .submenu li a {
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .submenu .submenu {
+    top: 0;
+    left: 100%;
+  }
+   */
+
+
+
+/* Menu.css
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    position: relative;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu .submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    flex-direction: column;
+  }
+  
+  .menu .submenu li a {
+    background-color: #444;
+  }
+  
+  .menu li:hover .submenu {
+    display: flex;
+  }
+  
+  .submenu .submenu {
+    left: 100%;
+    top: 0;
+  }
+   */
